@@ -13,3 +13,18 @@ contenedor.classList.add("toggle")
 
     
 })
+
+
+
+
+const apiUrl = 'http://localhost:3000/users';
+
+function registerUsers(){
+    const newUser ={
+        name: document.getElementById('reg-name').value,
+         email: document.getElementById('reg.email').value,
+password: document.getElementById('reg-pass').value
+        };
+
+        fetch()
+}
