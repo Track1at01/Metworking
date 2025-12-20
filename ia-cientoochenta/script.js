@@ -33,4 +33,5 @@ password: document.getElementById('reg-pass').value
             },
             body: JSON.stringify(newUser)
         });
+        alert('Usuario agregado')
 }
