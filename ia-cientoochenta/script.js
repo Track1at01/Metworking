@@ -26,5 +26,11 @@ function registerUsers(){
 password: document.getElementById('reg-pass').value
         };
 
-        fetch()
+        fetch(apiUrl, {
+            methodm : 'POST',
+            headers: {
+                'ContentType': 'application/json'
+            },
+
+        });
 }
