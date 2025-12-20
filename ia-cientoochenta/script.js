@@ -31,6 +31,6 @@ password: document.getElementById('reg-pass').value
             headers: {
                 'ContentType': 'application/json'
             },
-
+            body: JSON.stringify(newUser)
         });
 }
